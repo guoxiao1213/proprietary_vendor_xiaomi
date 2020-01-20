@@ -1,20 +1,10 @@
 {
   "config":
   {
-    "hw_platform": ["MTP", "Dragon", "Surf", "QRD", "HDK", "IDP", "IOT"],
-    "soc_id": ["291", "246", "300", "301", "305", "321", "336", "339", "341", "347", "355", "356", "360", "361", "352", "365", "366", "393", "394", "400", "407"]
+    "hw_platform": ["MTP", "Dragon", "Surf", "SIRIUS"],
+    "soc_id": ["291", "246", "305", "336","360"]
   },
 
-  "sns_diag_config":
-  {
-    "owner":"diag_filter_sensor",
-    "qdss":
-    {
-      "type" : "int",
-      "ver"  : "0",
-      "data" : "0"
-    }
-  },
 
   "sns_diag_sensor_datatype":
   {
@@ -98,12 +88,6 @@
       "ver" : "0",
       "data" : "1"
     },
-    "offbody_detect":
-    {
-      "type" : "int",
-      "ver" : "0",
-      "data" : "1"
-    },
     "thermopile":
     {
       "type" : "int",
@@ -138,19 +122,19 @@
     {
       "type" : "int",
       "ver" : "0",
-      "data" : "0"
+      "data" : "1"
     },
     "flush_test":
     {
       "type" : "int",
       "ver" : "0",
-      "data" : "0"
+      "data" : "1"
     },
     "md_test":
     {
       "type" : "int",
       "ver" : "0",
-      "data" : "0"
+      "data" : "1"
     },
     "da_test":
     {
@@ -277,78 +261,6 @@
       "type" : "int",
       "ver" : "0",
       "data" : "1"
-    },
-    "tilt_to_wake":
-    {
-      "type" : "int",
-      "ver" : "0",
-      "data" : "1"
-    },
-    "heart_rate":
-    {
-      "type" : "int",
-      "ver" : "0",
-      "data" : "1"
-    },
-    "ppg":
-    {
-      "type" : "int",
-      "ver" : "0",
-      "data" : "1"
-    },
-    "wrist_tilt_gesture":
-    {
-      "type" : "int",
-      "ver" : "0",
-      "data" : "1"
-    },
-    "pedometer_wrist":
-    {
-      "type" : "int",
-      "ver" : "0",
-      "data" : "1"
-    },
-    "data_acquisition_engine":
-    {
-      "type" : "int",
-      "ver" : "0",
-      "data" : "1"
-    },
-    "ccd_walk":
-    {
-      "type" : "int",
-      "ver" : "0",
-      "data" : "1"
-    },
-    "ccd_ttw":
-    {
-      "type" : "int",
-      "ver" : "0",
-      "data" : "1"
-    },
-    "ccd_hw":
-    {
-      "type" : "int",
-      "ver" : "0",
-      "data" : "1"
-    },
-    "threshold":
-    {
-      "type" : "int",
-      "ver" : "0",
-      "data" : "1"
-    },
-    "sar":
-    {
-      "type" : "int",
-      "ver" : "0",
-      "data" : "1"
-    },
-    "radar":
-    {
-       "type" : "int",
-       "ver" : "0",
-       "data" : "1"
     }
   }
 }

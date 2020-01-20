@@ -1,7 +1,9 @@
 {
   "config": {
-    "hw_platform": [ "MTP", "Dragon", "Surf", "QRD", "HDK", "IDP"],
-    "soc_id": ["291", "246", "305", "321", "336", "339", "340", "347", "341", "355", "356", "360", "361", "365", "366", "393", "394", "400", "407"]
+    "hw_platform": [ "MTP", "Dragon", "Surf", "SIRIUS"
+    ],
+    "soc_id": ["291", "246", "305", "336","360"
+    ]
   },
   "sns_amd": {
     "owner": "sns_amd",
@@ -9,7 +11,9 @@
     },
     "param2": {"ver": "0","type": "flt","data": "0.5"
     },
-    "sample_rate": {"ver": "0","type": "flt", "data": "10.0"
+    "sample_rate": {"ver": "1","type": "flt", "data": "50.0"
+    },
+    "enabled": {"ver": "0","type": "int", "data": "1"
     }
   }
 }
