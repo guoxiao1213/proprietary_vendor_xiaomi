@@ -56,7 +56,7 @@ android_app_import {
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: true,
+		enabled: false,
 	},
 	soc_specific: true,
 }
@@ -67,7 +67,7 @@ android_app_import {
 	apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: true,
+		enabled: false,
 	},
 	soc_specific: true,
 }
@@ -78,7 +78,7 @@ android_app_import {
 	apk: "proprietary/vendor/app/SoterService/SoterService.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: true,
+		enabled: false,
 	},
 	soc_specific: true,
 }
@@ -89,7 +89,7 @@ android_app_import {
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
 	presigned: true,
 	dex_preopt: {
-		enabled: true,
+		enabled: false,
 	},
 	soc_specific: true,
 }
@@ -100,7 +100,7 @@ android_app_import {
 	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: true,
+		enabled: false,
 	},
 	product_specific: true,
 }
@@ -111,7 +111,7 @@ android_app_import {
 	apk: "proprietary/product/app/QtiTelephonyService/QtiTelephonyService.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: true,
+		enabled: false,
 	},
 	product_specific: true,
 }
@@ -122,7 +122,7 @@ android_app_import {
 	apk: "proprietary/product/app/uceShimService/uceShimService.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: true,
+		enabled: false,
 	},
 	product_specific: true,
 }
