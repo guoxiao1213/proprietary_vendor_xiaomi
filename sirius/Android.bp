@@ -43,4 +43,3 @@ android_app_import {
 	privileged: true,
 	product_specific: true,
 }
-
